@@ -1,0 +1,38 @@
+body {
+    display: grid;
+    grid-template-columns: 1 2;
+    border: 5px solid black;
+    text-align: center;
+
+    background-color: lightgray;
+}
+
+.Links {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: blue;
+  grid-column-start: 1 / span 1;
+}
+
+.bodyText {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.heroImg {
+    max-width: 500px;
+}
+
+
+.headerLogo {
+    display: grid;
+    grid-column: 1 / span 2;
+}
+
+.footer {
+    text-align: left;
+}
