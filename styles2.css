@@ -34,6 +34,14 @@ div.header {
     padding: 1em;
 }
 
+table, td, th {
+    border: 1px solid;
+    padding: 10px;
+}
+table {
+    min-width: 50%;
+    min-height: 400px;
+}
 .Logo {
     max-width: 150px;
 }
@@ -55,3 +63,6 @@ img {
     height: 900px;
     width: 900px;
 }
+
+
+
